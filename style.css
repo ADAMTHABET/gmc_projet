@@ -1,0 +1,168 @@
+body{
+    width: 70%;
+    margin: 20px auto;
+   background-image: url(C:/Users/HP/OneDrive/Bureau/PROJECT/cine.jpeg);
+   background-size:auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed ;
+    gap: 90px;
+    border-radius: 17px;
+}
+
+nav input{
+    border-radius: 20px;
+    border-width: 1px;
+    width: 400px;
+    outline: none;
+    cursor: pointer;
+}
+
+nav img{
+    border-radius: 10px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+nav button{
+    border-radius: 17px;
+    background-color:greenyellow;
+    outline: none;
+    border-width: 1px;
+    height: 30px;
+    text-decoration: none;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    
+}
+h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+     font-size:40px ;
+     text-align: center;
+     border-radius: 17px;
+    background-color:rgb(120, 196, 5);
+    transition: color 1s ease-in-out;
+    cursor: pointer;
+}
+
+ 
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 100px;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+    
+   
+   
+}
+.categories span{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+     font-size:40px ;
+}
+
+.type a {
+    color: white;
+    text-align: center;
+    width: 150px;
+   margin-left: 350px;
+   font-size: large;
+   font-weight: 500;
+}
+
+.videos {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: rgb(120, 196, 5);
+    border-color:rgb(120, 196, 5) ;
+}
+.videos video{
+    width: 33%;
+    
+}
+
+.prisonbreak a{
+    color: rgb(11, 202, 62);
+    text-decoration: none;
+    margin-left: 300px;
+    font-size: large;
+   font-weight: 500;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+#h2{
+    margin-top: 100px;
+}
+ 
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px ;
+    text-decoration:underline;
+    transition: color 1s ease-in-out;
+    cursor: pointer;
+    letter-spacing: 8px;
+}
+
+h1:hover{
+    color:darksalmon;
+    
+}
+
+h2:hover{
+    color:yellow;
+}
+
+
+.prisonbreak a:hover {
+    color:yellow ;
+    
+}
+
+.videoss{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.videoss video{
+    display: flex;
+    width: 33%;
+    background-color:rgb(120, 196, 5) ;
+}
